@@ -2,7 +2,7 @@ from flask import Flask, jsonify, abort
 
 app = Flask(__name__)
 
-# --- Mock Data (from previous steps) ---
+# --- Mock Data 
 students_db = {
     "student1": {"name": "Ali Hassan", "enrolled_course_ids": ["course101", "course201"]},
     "student2": {"name": "Layla Ibrahim", "enrolled_course_ids": ["course201"]},
